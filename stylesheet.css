@@ -1,0 +1,30 @@
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+  height: 50%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 100%;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
