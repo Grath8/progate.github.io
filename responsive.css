@@ -1,0 +1,47 @@
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+  .heading h2{
+    font-size:32px;
+  }
+  .lesson-wrapper{
+    height:1450px;
+    width:auto;
+    background-size:cover;
+  }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .lesson-icon p{
+    font-size:25px;
+    line width:150px;
+  }
+
+  /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
+  .top-wrapper h1{
+    font-size:32px;
+  }
+
+  /* Tambahkan CSS untuk tag <h2> didalam heading */
+  .heading h2{
+    font-size:20px;
+  }
+}
+
+
+/* Untuk Smartphones */
+@media (max-width: 670px) {
+  .container{
+    background-size:cover;
+    height:2800px;
+  }
+  .lesson-wrapper{
+    height:2800px;
+  }
+  .heading h2{
+    font-size:25px;
+  }
+  .lesson {
+    width: 100%;
+  }
+}
