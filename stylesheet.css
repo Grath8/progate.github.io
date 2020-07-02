@@ -1,18 +1,54 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+div{
+  display:block;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .lesson-wrapper {
+  height: 800px;
   padding-bottom: 80px;
-  padding-left: 2%;
-  padding-right: 2%;
+  background-color: #DF825F;
+  background-size:cover;
   text-align: center;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.heading h2 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 10px;
+  font-family: "Inter", sans-serif;
+  box-shadow: 5px 5px black;
 }
 
 .lesson {
   float: left;
   width: 25%;
-  height: 50%;
 }
+
 
 .lesson-icon {
   position: relative;
+  margin-bottom:20px;
+  margin-left:20px;
+  cursor: pointer;
 }
 
 .lesson-icon p {
@@ -20,11 +56,19 @@
   top: 40%;
   width: 100%;
   color: white;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
 }
 
-.txt-contents {
-  width: 100%;
-  margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
+.lesson-icon img {
+  opacity: 0.8;
+  border-radius: 10px;
+  box-shadow: 5px 5px black;
+}
+
+.lesson-icon img:active {
+  opacity: 1;
+  box-shadow: none;
+  position: relative;
+  top: 10px;
 }
